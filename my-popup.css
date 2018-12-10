@@ -1,0 +1,23 @@
+.my-popup {
+    /* display: none; */
+    background: #fff;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .1);
+    padding: 10px;
+    position: fixed;
+    border: 3px solid;
+    z-index: 1000;
+}
+
+.my-mask {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    background: rgba(0, 0, 0, .6);
+}
+
+[hidden] {
+    display: none !important;
+}

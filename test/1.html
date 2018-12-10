@@ -1,0 +1,40 @@
+<link rel="stylesheet" href="../my-popup.css">
+<link rel="stylesheet" href="C:\Users\28933\Desktop\biao-class\practice\css\btn.css">
+
+
+<button id="t">登陆</button>
+<div id="p">
+    <form action="">
+        <div>
+            用户名:
+            <input type="text">
+        </div>
+        <div>
+            密码:
+            <input type="text" name="" id="">
+        </div>
+        <div>
+            <button>提交</button>
+        </div>
+    </form>
+</div>
+
+<script src="../biaoPopup.js"></script>
+<script>
+    boot(
+        '#t', '#p',
+         custom = {
+        position: 'centerX-top',
+        // x_offset:10,
+        // y_offset:20,
+        // on:'dblclick',
+        // keyCode:9,
+    }
+    );
+    let btn=document.getElementsByTagName('button');
+    console.log( btn);
+    for(let i=0;i<btn.length;i++){
+        btn[i].classList.add('my-btn');
+    }
+    
+</script>
